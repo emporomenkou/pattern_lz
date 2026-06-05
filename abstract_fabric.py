@@ -96,12 +96,5 @@ def client_request(fabric: FurnitureFabric):
     print(f"{sofa.lie()} и {sofa.broken()}")
     print(f"{table.put_cup()} и {table.broken()}")
 
-def main():
-    print("\nАбстрактная фабрика\n")
-    client_request(ModernFabric)
-    client_request(VictorianFabric)
-
-if __name__ == "__main__":
-    main()
 
     
