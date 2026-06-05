@@ -97,6 +97,7 @@ def client_request(fabric: FurnitureFabric):
     print(f"{table.put_cup()} и {table.broken()}")
 
 def main():
+    print("\nАбстрактная фабрика\n")
     client_request(ModernFabric)
     client_request(VictorianFabric)
 
